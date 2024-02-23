@@ -1,0 +1,5 @@
+-- Testing Insert
+-- INSERT INTO User_TABLE
+--     (username, password, email, first_name, last_name, date_registered, last_login, is_active)
+-- values
+--     ('John Doe', 'password', 'johndoe@example.com', 'John', 'Doe', '2024-02-23 04:21:00', '2024-02-23 04:21:00', TRUE);

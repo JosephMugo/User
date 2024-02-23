@@ -1,0 +1,14 @@
+CREATE SCHEMA IF NOT EXISTS App;
+SET SCHEMA App;
+
+CREATE TABLE IF NOT EXISTS USER_TABLE (
+    id IDENTITY NOT NULL PRIMARY Key,
+    username VARCHAR (100) NOT NULL,
+    password VARCHAR (100) NOT NULL,
+    email VARCHAR (100) NOT NULL,
+    first_name VARCHAR (100) NOT NULL,
+    last_name VARCHAR (100) NOT NULL,
+    date_registered TIMESTAMP NOT NULL,
+    last_login TIMESTAMP NOT NULL,
+    is_active BOOLEAN NOT NULL
+);
